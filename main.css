@@ -1,0 +1,142 @@
+*{
+    --theme-color: #1068ed;
+    --font-color: #2d3448;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hamburger{
+    display: none;
+    height: 30px;
+    width: 30px;
+    margin: 8px  5px 5px 5px;
+    box-sizing: border-box;
+}
+.hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    margin-bottom:5px;
+    background-color: #2d3448  ;
+    
+}
+
+
+ a {
+    
+    font-size: 1rem !important;
+    font-weight: 400  !important;
+    line-height: 1.5  !important;
+    color: rgb(179, 185, 195) !important;
+    text-align: left  !important;
+ 
+}
+a:hover{
+   color: #0657cd !important;
+}
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-top: 0px;
+
+    
+}
+.btn{
+
+    justify-content: center;
+    align-items: center;
+    background: #0657cd;
+    color: #fff!important;
+    border: none;
+    height: 3rem;
+    width: 9rem;
+    margin-top: .2rem;
+    font-weight: 400;
+    text-align: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+
+}
+.getButon{
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #0657cd!important;
+    border: none;
+    height: 3rem;
+    width: 14rem;
+    margin-top: .2rem;
+    font-weight: 400;
+    text-align: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.mobile-nav{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #0657cd;
+    color: white;
+    font-family: sans-serif;
+}
+/* section two  */
+.section-two{
+    background: url(/images/1.jpg);
+    background-size: 100% 100%;
+}
+.p{
+    width: 70%;
+    ;
+}
+.section-two p{
+    color: rgb(179, 185, 195);
+   
+}
+.section-two h1{
+    color: rgb(47, 64, 91);
+    font-weight: bold !important;
+}
+.sectiontwobut2{
+   background: url(/images/1.jpg);
+}
+.sectiontwobut2{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:768px ){
+   .hamburger{
+    display: block;
+    margin-left: 100% ;
+   } 
+  .modal-lg{
+    width: 1200px;
+  } 
+ 
+
+}
